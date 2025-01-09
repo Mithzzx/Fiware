@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../backend/database_helper.dart';
 import '../backend/debts.dart';
-import '../backend/accounts.dart';
 import 'debts_add_page.dart';
 
 class DebtsPage extends StatelessWidget {
