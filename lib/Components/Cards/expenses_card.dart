@@ -66,7 +66,7 @@ class _ExpensesAnalyticsCardState extends State<ExpensesAnalyticsCard> {
 
         // Create pie chart sections
         final sections = categoryTotals.entries.map((entry) {
-          final category = categories[entry.key];
+          final category = categories[entry.key]!;
           return PieChartSectionData(
             color: category.color,
             value: entry.value,
@@ -188,7 +188,7 @@ class _ExpensesAnalyticsCardState extends State<ExpensesAnalyticsCard> {
                   spacing: 16,
                   runSpacing: 12,
                   children: categoryTotals.entries.map((entry) {
-                    final category = categories[entry.key];
+                    final category = categories[entry.key]!;
                     return SizedBox(
                       width: MediaQuery.of(context).size.width * 0.4,
                       child: Row(
