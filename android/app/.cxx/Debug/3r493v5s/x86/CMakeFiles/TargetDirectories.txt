@@ -1,0 +1,2 @@
+/Users/mithun/IdeaProjects/Fiware/android/app/.cxx/Debug/3r493v5s/x86/CMakeFiles/rebuild_cache.dir
+/Users/mithun/IdeaProjects/Fiware/android/app/.cxx/Debug/3r493v5s/x86/CMakeFiles/edit_cache.dir
